@@ -36,7 +36,6 @@
   --disp-dice-symbol: block;
   /** タイマーの表示 */
   --disp-timer: block;
-  --disp-bgm: block;
 
   /**************************
    ダイスウィンドウの設定
@@ -131,11 +130,11 @@ body {
 /** ツールバー */
 .MuiToolbar-regular,
 /** サウンド設定 */
-.eePile,
+.LWmDh,
 /** 盤面サイズ設定 */
-.kpfCBT,
+.MuiSlider-root,
 /** 編集ボタン */
-.MuiFab-root,
+.MuiButtonBase-root,
 /** 発言時キャラクター */
 .eifEaS {
   display: none !important;
@@ -210,11 +209,6 @@ body {
 .MuiPaper-elevation5 {
   display: var(--disp-timer) !important;
 }
-
-.LWmDh {
-  display: var(--disp-bgm) !important;
-}
-
 
 /**************************
  固定非表示項目の設定
