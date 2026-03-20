@@ -36,6 +36,7 @@
   --disp-dice-symbol: block;
   /** タイマーの表示 */
   --disp-timer: block;
+  --disp-bgm: block;
 
   /**************************
    ダイスウィンドウの設定
