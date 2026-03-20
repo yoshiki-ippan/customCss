@@ -210,6 +210,11 @@ body {
   display: var(--disp-timer) !important;
 }
 
+.LWmDh {
+  display: var(--disp-bgm) !important;
+}
+
+
 /**************************
  固定非表示項目の設定
 **************************/
